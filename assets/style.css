@@ -7,6 +7,12 @@
     margin: 0;
     padding: 0;
 }
+.hr{
+    display: none;
+}
+.fa-bar{
+    display: none;
+}
 .display-flex{
     display: flex;
 }
@@ -255,6 +261,7 @@ nav .a4{
     position: absolute;
     top: 56%;
     left: 38px;
+    cursor: pointer;
 }
 /*small-stories-cards*/
 .small-stories-card{
@@ -289,13 +296,17 @@ nav .a4{
     position: absolute;
     top: 53%;
     left: 38px;
+    cursor: pointer;
+}
+.small-card-btn2{
+    background-color: #5D58F0;
 }
 .small-card-title{
     margin-left: 38px;
     font-size: 1rem;
     font-weight: 700;
 }
-/*view all button*/
+/* view all button */
 .view-all-div{
     text-align: center;
 }
@@ -317,5 +328,72 @@ nav .a4{
     background-color: aquamarine;
 }
 
+/*footer*/
+.footer {
+    background: #01ACFD;
+    background-size: cover;
+    width: 100%;
+    height: 520px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
 
+.main-footer {
+    
+    width: 75%;
+    height: 222px;
+    margin-left: 10%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo-2{
+    margin-top: 12px;
+    width: 82px;
+    height: 82px;
+}
+.kids-education{
+    margin-left: 10px;
+    margin-bottom: 36px;
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.footer-column-1-description{
+    color: white;
+}
+.about-school{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color: white;
 
+}
+
+.footer-column-2 ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    color: white;
+}
+.footer-column-2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-column-3{
+    margin-bottom: 110px;
+}
+.footer-column-3-title{
+    color: white;
+    font-weight: bold;
+    font-size: 1.625rem;
+    padding-bottom: 32px;
+}
+.icon-div{
+    gap: 10px;
+}
+.footer-column-3 img{
+    width: 40px;
+    height: 40px;
+}
