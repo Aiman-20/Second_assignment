@@ -16,6 +16,14 @@
 .display-flex{
     display: flex;
 }
+/*marquee-tag*/
+marquee{
+    background-color: lightblue;
+    color: purple;
+    border: 2px solid red;
+    display: inline-block;
+    font-weight: 900;
+}
 /* nav styles */
 nav{
     width: 80%;
@@ -263,7 +271,7 @@ nav .a4{
     left: 38px;
     cursor: pointer;
 }
-/*small-stories-cards*/
+/* ----small-stories-cards-------- */
 .small-stories-card{
     width: 53%;
     display: grid;
@@ -358,7 +366,7 @@ nav .a4{
     margin-bottom: 36px;
     color: white;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2.625rem;
 }
 .footer-column-1-description{
     color: white;
@@ -397,6 +405,8 @@ nav .a4{
     width: 40px;
     height: 40px;
 }
+
+/*media query for small devices*/
 
 @media screen and (max-width:576px) {
     .nav-btn, .nav-links, .school{
@@ -471,4 +481,4 @@ nav .a4{
     .fa{
         font-size: 2rem;
     }
-}    
+}
