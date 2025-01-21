@@ -439,7 +439,11 @@ nav .a4{
     .small-card{
         width: 100%;
     }
-
+    .main-footer{
+        flex-direction: column;
+        height: 100%;
+        align-items: flex-start; 
+    }
     .footer{
         height:100%;
     }
@@ -452,6 +456,7 @@ nav .a4{
         font-weight: 500;
         padding: 6px 11px 6px 11px;
         color: white;
+        /* background-color: #95B226; */
         border: none;
         border-radius: 48px;
         position: absolute;
