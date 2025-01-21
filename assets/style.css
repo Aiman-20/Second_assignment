@@ -397,3 +397,20 @@ nav .a4{
     width: 40px;
     height: 40px;
 }
+
+@media screen and (max-width:576px) {
+    .nav-btn, .nav-links, .school{
+        display: none;
+    }
+    .hr{
+        display: block;
+        color: orange;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
